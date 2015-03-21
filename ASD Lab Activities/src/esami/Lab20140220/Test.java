@@ -23,7 +23,7 @@ public class Test {
 		String nuovoNomeCoda = null;
 		PQ<Process> nuovaCoda;
 		
-		if (probValue < 10) {
+		if (probValue < 20) {
 			priorita = r.nextInt(MIN_PRIORITA);
 		} else {
 			priorita = code.get(nomeCodaCasuale).getPriority(p);
@@ -67,7 +67,7 @@ public class Test {
 		int n = 1;
 		for (Process temp : code.get(NOME_CODA[0])) {
 			System.out.println("Processo n." + n++ + ": " + temp.toString()
-					+ " PrioritÃ : "
+					+ " Priorità: "
 					+ (code.get(NOME_CODA[0])).getPriority(temp));
 		}
 
@@ -92,7 +92,7 @@ public class Test {
 		 n = 1;
 		for (Process temp : code.get(NOME_CODA[0])) {
 			System.out.println("Processo n." + n++ + ": " + temp.toString()
-					+ " PrioritÃ : "
+					+ " Priorità: "
 					+ (code.get(NOME_CODA[0])).getPriority(temp));
 		}
 		
@@ -100,7 +100,7 @@ public class Test {
 		n = 1;
 		for (Process temp : code.get(NOME_CODA[1])) {
 			System.out.println("Processo n." + n++ + ": " + temp.toString()
-					+ " PrioritÃ : "
+					+ " Priorità: "
 					+ (code.get(NOME_CODA[1])).getPriority(temp));
 		}
 		
@@ -108,7 +108,7 @@ public class Test {
 		n = 1;
 		for (Process temp : code.get(NOME_CODA[2])) {
 			System.out.println("Processo n." + n++ + ": " + temp.toString()
-					+ " PrioritÃ : "
+					+ " Priorità: "
 					+ (code.get(NOME_CODA[2])).getPriority(temp));
 		}
 	}
